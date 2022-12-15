@@ -1,0 +1,36 @@
+.fondo-page1{
+   background-image: url(images/fondo1.jpg);
+   height: 100vh;
+}
+h2 {color: whitesmoke;
+}
+h6 {color: whitesmoke;}
+.shape-separator {
+   position: relative;
+   width: 93%;
+   height: 0px;
+   background: #333;
+ }
+ .shape-separator::after {
+   content: '';
+   background-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxLjQxNCI+PHBhdGggZD0iTTEyIDEybDEyIDEySDBsMTItMTJ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+);
+   position: absolute;
+   width: 92.5%;
+   height: 15px;
+   bottom: 0;
+ }
+.color-botton{color: red !important;
+background-color: black;}
+spam{color: whitesmoke;
+  text-transform: capitalize;
+}
+.circulo{ width: 100px;
+height: 100px;
+background-color: aliceblue;
+border-radius: 60%;}
+.imagen{width: 32%;
+height: 32%;
+border-radius: 60%;
+display: flex;
+justify-content: center;
+padding: 20px;}
